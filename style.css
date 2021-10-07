@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1625225233840-695456021cde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+header h2{
+    font-family: 'Operator mono', 'Poppins', sans-serif;
+    background: tomato;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+
+}
+
+button{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    background: #ffffff9e;
+    color: #000;
+    border-radius: 50%;
+    display: block;
+    margin: 5px;
+}
+
+button:active{
+    font-size: 20px;
+}
+
+.delete:active, .clear:active{
+    font-size: 14px;
+}
+
+.delete{
+    background: rgb(250, 119, 96);
+    font-size: 12px;
+}
+
+.clear{
+    background: radial-gradient(rgba(255, 0, 0, 0.788), rgba(255, 0, 0, 0.623));
+    font-size: 12px;
+}
+
+.pluse{
+    background: #7D93E0;
+}
+.minuse{
+    background: #F08080;
+}
+.into{
+    background: #FFA500;
+}
+.devide{
+    background: #20B2AA;
+}
+.equal{
+    background: #9477AF;
+}
+
+#myResult{
+    width: 250px;
+    padding: 20px 10px;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    text-align: right;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.calculatorBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+
+.calculatorBody table {
+    border-collapse: collapse;
+    background: #EAEDEF;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 3px 5px 14px 4px #bababa94;
+}
+
+.calculatorBody table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
